@@ -5,8 +5,11 @@ ruby '1.9.3'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
-# Use sqlite3 as the database for Active Record
+# Use mysql as the database for Active Record
 group :development, :test do
 	gem 'mysql2' ,'0.3.11'
 	gem 'rspec-rails', '2.13.1'
