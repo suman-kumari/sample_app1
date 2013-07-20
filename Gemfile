@@ -14,11 +14,13 @@ group :development, :test do
 	gem 'mysql2' ,'0.3.11'
 	gem 'rspec-rails', '2.13.1'
 end
+
 group :test do
   	gem 'selenium-webdriver', '2.0.0'
   	gem 'capybara', '2.1.0'
         gem 'factory_girl_rails', '4.2.1'
 end
+
 gem 'sass-rails', '4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -43,6 +45,7 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '0.3.20', require: false
 end
+
 group :production do
   gem 'pg', '0.15.1'
 end
